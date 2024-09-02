@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Add Resource</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <ul class="links">
+            <h1><a href="admin.jsp">Home</a></h1>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h2>Add Resource</h2>
+        <form id="addResourceForm" action="/uamm/webapi/myresource/addresources" method="POST">
+            <div class="form-group">
+                <label for="newResource">Resource Name:</label>
+                <input type="text" id="newResource" name="resourceName" placeholder="Enter Resource Name">
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    
+    
+</body>
+</html>

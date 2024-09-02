@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Failed</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #f2f2f2, #ffffff); /* Light gradient background */
+            color: #333;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 400px;
+            margin: 20px;
+        }
+
+        .message {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            color: #d9534f; /* Red color for error message */
+        }
+
+        .link {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #ffffff;
+            background-color: #000000; /* Black background for button */
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .link:hover {
+            background-color: #333333; /* Slightly lighter black on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="message">Failed to login. Please try again.</div>
+        <a href="index.jsp" class="link">Click here to login again</a>
+    </div>
+</body>
+</html>
